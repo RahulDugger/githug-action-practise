@@ -22,13 +22,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: checkout repo
+      - name: run test
         uses: actions/checkout@v4
       - name: user node.js
         uses: actions/setup-node@v4
         with:
           node-version: '24.x'
       - run: npm install
-      - run: npm run test
+      - run: npm test
       
         
