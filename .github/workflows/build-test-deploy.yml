@@ -19,7 +19,8 @@ jobs:
 
   test:
     needs: build
-
+    runs-on: ubuntu-latest
+    
     steps:
       - name: run test
         uses: actions/checkout@v4
