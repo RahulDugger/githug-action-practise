@@ -3,7 +3,7 @@ name: print-a-word
 on: push
 
 jobs:
-  print-a-word-job
+  print-a-word-job:
 
     runs-on: ubuntu-latest
 
